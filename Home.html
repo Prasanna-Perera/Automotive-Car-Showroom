@@ -6,46 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Automotive & Motorcycle Showroom</title>
 
-    <style>
-        body {
-            margin: 10;
-            font-size: medium;
-
-        }
-
-
-        .navbar {
-            background-color: #0d1647;
-            padding: 10px;
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            padding-bottom: 10px;
-            padding-top: 10px;
-            padding-left: 30px;
-            padding-right: 20px;
-            font-size: large;
-        }
-    </style>
-
+    <link rel="stylesheet" href="Assets\css\Home.css">
 </head>
 
 <body>
-        <h1>
-        <center> Finest Motor Company (PVT)Ltd . </center>
-    </h1>
-    <nav>
-        <div class="navbar">
-            <a href="Home.html">Home</a>
-            <a href="Contact.html">Contact</a>
-            <a href="Service.html">Service</a>
 
+    <div class="video-container">
+        <video autoplay loop muted playsinline class="bg-video">
+            <source src="Assets\vdo\BMW M3 Competition - 4K Cinematic Short Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="video-overlay"></div>
+
+        <div class="content-wrapper">
+            <nav class="navbar">
+                <a href="Home.html">Home</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Service.html">Service</a>
+            </nav>
+
+            <div class="hero-text">
+                <h1>Finest Motor Company (PVT) Ltd.</h1>
+            </div>
         </div>
-    </nav>
+    </div>
+    <br>
+    <div class="car-cards-container">
+
+        <div class="car-title">
+            <h2>Our Featured Cars</h2>
+            <p>Explore our collection of high-performance vehicles.</p>
+
+
+            <div class="car-card-1">
+                <img src="Assets\Img\car 1.jpeg" alt="Car 1">
+                <h3>BMW X5 M
+                    SUVs</h3>
+                <p>Description
+                    - 1 OF 1 in the island
+                    - Powered by a 4.4L twin-turbo V8 engine producing 567 horsepower and 553 Ib-ft of torque, allowing
+                    it
+                    to accelerate from 0-60 mph in about 4.0 seconds.
+                    - Just done 17,000km
+                    - Agent imported & maintained</p>
+            </div>
+            <div class="car-card-2">
+                <img src="Assets\Img\car 5.jpeg" alt="Car 2">
+                <h3>McLaren 570GT
+                    Exotics</h3>
+                <p>Description
+                    - 3.8-liter twin-turbo V8 engine producing 562 hp and 443 lb-ft of torque.
+                    - A 7-speed dual-clutch transmission, and rear-wheel drive, allowing for a 0-60 mph time of 3.3
+                    seconds.
+                    - Top speed of 204 mph.</p>
+            </div>
+            <div class="car-card-3">
+                <img src="Assets\Img\car 6.jpeg" alt="Car 3">
+                <h3>Ferrari SF90 Spider
+                    Exotics</h3>
+                <p>Description
+                    - The Ferrari SF90 Spider is a high-performance hyper car
+                    - It features a powerful 4.0-liter twin-turbo V8 engine and three electric motors, delivering a
+                    total output of 1000 hp
+                    - The SF90 Spider’s hybrid powertrain includes the RAC-e (electronic cornering set-up regulator)
+                    system and the MGUK (Motor Generator Unit, Kinetic) derived from Formula 1.
+                    - The car’s design and aerodynamics have been optimized for performance and efficiency, including a
+                    low engine cover with a shut-off Gurney.</p>
+            </div>
+            <div class="car-card-4">
+                <img src="Assets\Img\car 1.jpeg" alt="Car 4">
+                <h3>BMW X5 M
+                    SUVs</h3>
+                <p>Description
+                    - 1 OF 1 in the island
+                    - Powered by a 4.4L twin-turbo V8 engine producing 567 horsepower and 553 Ib-ft of torque, allowing
+                    it to accelerate from 0-60 mph in about 4.0 seconds.
+                    - Just done 17,000km
+                    - Agent imported & maintained</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
