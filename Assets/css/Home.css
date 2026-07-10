@@ -70,11 +70,7 @@
     font-family: ROG Fonts STRIX SCAR, sans-serif;
 }
 
-.hero-text h1 {
-    font-size: 3rem;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
-    margin: auto;
-}
+
 
 .car-title {
     text-align: center;
@@ -121,18 +117,6 @@
     justify-content: center;
     gap: 30px;
     padding: 40px;
-}
-.car-card:hover {
-    transform: translateY(-5px);
-}
-.car-card {
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-    padding: 20px;
-    transition: transform 0.3s ease;
 }
 
 
